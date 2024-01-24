@@ -1,2 +1,2 @@
 # jenkins-springboot
-Learning purpose for jenkins deployments
+Learning purpose for jenkins deployments completed
