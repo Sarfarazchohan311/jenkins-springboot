@@ -1,9 +1,9 @@
 pipeline {
 	agent any
 	environment {
-		version=${snv.buildId}
+		version='1.0'
 	}
-	tools {
+	tool {
 		maven 'Maven'
 	}
 	
