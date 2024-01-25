@@ -1,6 +1,6 @@
 pipeline {
 	agent any
-	enviroment {
+	environment {
 		version=${snv.buildId}
 	}
 	tools {
