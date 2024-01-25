@@ -1,10 +1,10 @@
 pipeline {
 	agent any
 	environment {
-		version='1.0'
+		VERSION = "${env.BUILD_ID}"
 	}
-	tool {
-		maven 'Maven'
+	tools {
+		maven "Maven"
 	}
 	
 	stages {
